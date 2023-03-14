@@ -1,0 +1,57 @@
+body{
+    background-color: #201f1f;
+}
+
+.all-obj{
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.all-obj img{
+    box-shadow: 2px 2px 20px rgb(119, 216, 106);
+    width: 8%;
+    height: 8%;
+    margin: 0.1rem 0.5rem;
+}
+.image-container{
+    box-shadow: 2px 2px 20px rgb(1, 2, 1);
+    width: 70%;
+    height: 70vh;
+    margin: auto;
+    position: relative;
+    margin-top: 10vh;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    bottom: 10%;
+    text-align: center;
+    width: 40%;
+    background-color: rgba(2, 2, 2, 0.5);
+    padding: 1rem 0;
+    margin: 0 30%;
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin: 5px;
+    background: rgb(192, 54, 54);
+}
+
+.dot-div{
+    width: 70%;
+    margin: 5px 15% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:3%;
+    position: absolute;
+}
